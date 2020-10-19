@@ -1,35 +1,33 @@
-Task Description - https://www.notion.so/React-75dcb88e6ff043c288573eccdba7baeb
+## Описание задачи
+https://www.notion.so/React-75dcb88e6ff043c288573eccdba7baeb
 
-TODO:
+## Интерфейс
+
+![Требуемый интерфейс](https://i.imgur.com/8xA0Yfl.jpeg)
+
+## Логика
+
+Необходимо сделать приложение на React, работающее по следующей логике:
+
+1. Наверху расположены 3 кнопки. По нажатию на каждую должен запускаться таймер с задержкой в секундах, равной номеру кнопки (начиная с 1).
+2. Таймер следующей нажатой кнопки должен запускаться только после завершения предыдущего (при этом кнопки не должны блокироваться, должна образовываться очередь)
+3. По завершению отсчета таймера, в лог добавляется запись в следующем формате: “${время вывода строки в лог}: ${номер кнопки} / ${время нажатия кнопки)
+4. Записи в логе должны следовать в порядке нажатия кнопок.
+5. Рядом с основными кнопками расположена кнопка "Сбросить". По нажатию кнопки "Сбросить" состояние приложения должно возвращаться к исходному.
+
+## Требования
+
+1. TypeScript
+2. Компоненты должны быть функциональными
+3. Должна быть возможность переиспользования компонентов
+4. Приложение должно поддерживать следующие npm-скрипты:
+    1. start - запускается в режиме для разработки
+    2. build - собирается в продакшен-билд
+5. Для запуска приложения должно быть достаточно выполнить: npm i && npm start
+
+### TODO:
 
 - add local linters (eslint/prettier), pre-commit, pre-push hooks
 - add tests
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
