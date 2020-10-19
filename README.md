@@ -3,7 +3,7 @@ https://www.notion.so/React-75dcb88e6ff043c288573eccdba7baeb
 
 ## Интерфейс
 
-![Требуемый интерфейс](https://imgur.com/a/r5gUyBj)
+![Требуемый интерфейс](https://imgur.com/r5gUyBj)
 
 ## Логика
 
