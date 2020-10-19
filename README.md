@@ -1,6 +1,6 @@
-Task Description - https://www.notion.so/React-75dcb88e6ff043c288573eccdba7baeb
+##Task Description - https://www.notion.so/React-75dcb88e6ff043c288573eccdba7baeb
 
-TODO:
+### TODO:
 
 - add local linters (eslint/prettier), pre-commit, pre-push hooks
 - add tests
