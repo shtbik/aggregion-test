@@ -1,29 +1,25 @@
-## Описание задачи
-https://www.notion.so/React-75dcb88e6ff043c288573eccdba7baeb
+## Task
 
-## Интерфейс
+You need to implement React application followed these points:
+1. Create 3 buttons on top. While pushing the button you need to set timeout with a value equal to the number of the button (start from 1)
+2. Timer of the next pushed button should be started only when previous was finished (all buttons should be available to click; create a queue)
+3. When timeout will be finished you have to add a new record into the log. Format "${time to output}: ${button nubmer} / ${time when button was pushed}"
+4. All the records should be in order which were clicked
+5. Add a button "Reset" that by click should reset the state of the application to initial
 
-![Требуемый интерфейс](https://i.imgur.com/8xA0Yfl.jpeg)
+## UI
 
-## Логика
+![Example of UI](https://i.imgur.com/8xA0Yfl.jpeg)
 
-Необходимо сделать приложение на React, работающее по следующей логике:
-
-1. Наверху расположены 3 кнопки. По нажатию на каждую должен запускаться таймер с задержкой в секундах, равной номеру кнопки (начиная с 1).
-2. Таймер следующей нажатой кнопки должен запускаться только после завершения предыдущего (при этом кнопки не должны блокироваться, должна образовываться очередь)
-3. По завершению отсчета таймера, в лог добавляется запись в следующем формате: “${время вывода строки в лог}: ${номер кнопки} / ${время нажатия кнопки)
-4. Записи в логе должны следовать в порядке нажатия кнопок.
-5. Рядом с основными кнопками расположена кнопка "Сбросить". По нажатию кнопки "Сбросить" состояние приложения должно возвращаться к исходному.
-
-## Требования
+## Requirements
 
 1. TypeScript
-2. Компоненты должны быть функциональными
-3. Должна быть возможность переиспользования компонентов
-4. Приложение должно поддерживать следующие npm-скрипты:
-    1. start - запускается в режиме для разработки
-    2. build - собирается в продакшен-билд
-5. Для запуска приложения должно быть достаточно выполнить: npm i && npm start
+2. Functional Components
+3. Reusable
+4. It has to support npm-scripts:
+    1. start - run development mode
+    2. build - bundle production version
+5. To start these commands are enough: npm i && npm start
 
 ### TODO:
 
